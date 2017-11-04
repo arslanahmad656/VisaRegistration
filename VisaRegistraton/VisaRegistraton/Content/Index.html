@@ -1,0 +1,1207 @@
+<!DOCTYPE html>
+<!-- saved from url=(0074)https://www.moifawri.ae/Responsive/Modules/VisaManagement/VisaInquiry.aspx -->
+<html class="js flexbox canvas canvastext webgl touch geolocation postmessage websqldatabase indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients cssreflections csstransforms csstransforms3d csstransitions fontface generatedcontent video audio localstorage sessionstorage webworkers applicationcache svg inlinesvg smil svgclippaths gr__moifawri_ae" lang="en" dir="LTR" style=""><head id="ctl00_Head1"><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"><meta http-equiv="x-ua-compatible" content="ie=edge"><title>
+	FAWRI - eVisa Inquiry
+</title><meta http-equiv="X-UA-Compatible" content="IE=EmulateIE9"><meta name="keywords" content="Ministry Of Interior United Arab Emirates,وزارة الداخلية الإمارات العربية المتحدة"><meta name="description" content="MOI , MOIVILLAGE , UAE , United Arab Emirates , ministry of interior , police , abudhabi , dubai , Sharjah , Ajman , rak , Fujairah ,  ras al khaimah , umm al quwain , crime , strategy , traffic , Child Protection Center , Major General Dr. Nasser Lakhrebani Al Nuaimi , Secretary General of the Office of HH Deputy Prime Minister and Minister of Interior , Chairman of the Higher Committee for Child Protection ,  Lt. General HH Sheikh Saif bin Zayed Al Nahyan , Deputy Prime Minister and Minister of Interior , care , safe , accidents , Society , family , security , safety , protect , children , services , provided , risk , secure , safest , quality , life , community , reform , residency , services , ensuring , justice , team , working , excellence , courtesy , integrity , loyalty , social , political , media , public , relations , civil defense, readiness , crises , disasters , police college , GHQ , smart , system , transport , government , school , protection , transportation , electronic , location , route , stops , Department , seat belt , drivers , technologies , campaign , traveling , road , border , agencies , facilitation , Conference ,Smart Initiatives , advanced  , leadership , organizational , units , general , headquarters , Major , first , Geographic Information System , GIS , Central  , director , solutions , technical , exhibition , Captain , Lieutenant , Colonel , E-knowledge , Gateway , Share my Knowledge  , leaders , creativity , Community Police , Residency , Foreigners , Affairs  , Directorate , success , plans , support , progress , development , vision , happiness ,  operations , statistics , speed , Federal , Vehicle , Portal , communication electronic , website , Insurance , Authority , several , interactive ,employees , Lt. General Saif Abdullah Al Shafar , Undersecretary at the Ministry of Interior , Major General Mohammed Khalfan Matar Al Rumaithi , Deputy Commander-in-Chief of Abu Dhabi Police , Resources , national , authorities , License , Licensing , rules , new , passengers , comfort , regulations , Naturalization , regulations , Emergency , fire , broke , building , house , reduce , response , time , call , 999 , 997 , 998 , 8005000 , Special , reduce , skills , ambulance , officers , headquarters , management , knowledge , Air , wing , missions , highways , internal , Higher , Organizing , Committee , International , Resilience , Exhibition , Conference , ISNR , event , agency, Challenges , help , experience , Major General Khalifa Hareb Al Khaili"><link rel="apple-touch-icon" href="https://www.moifawri.ae/Responsive/Shared/MasterPages/apple-touch-icon.png">
+    <!-- Place favicon.ico in the root directory -->
+
+    <link rel="stylesheet" href="./Index_files/bootstrap.min.css"><link rel="stylesheet" href="./Index_files/font-awesome.min.css"><link rel="stylesheet" href="./Index_files/font-awesome.css"><link rel="stylesheet" href="./Index_files/bootstrap-datepicker3.min.css"><link rel="stylesheet" href="./Index_files/bootstrap-toggle.min.css"><link rel="shortcut icon" href="https://www.moifawri.ae/Images/icons/favicon.ico" type="image/x-icon"><link rel="icon" href="https://www.moifawri.ae/Images/icons/favicon.ico" type="image/ico"><link rel="stylesheet" href="./Index_files/bootstrap-tour.css"><link rel="stylesheet" href="./Index_files/common.css">
+
+    <style>
+        @media screen and (max-width: 560px) {
+            .breadcrumb {
+                height: 75px;
+            }
+        }
+    </style>
+    <!-- From MasterPage-->
+
+    <!-- Added placeholder to include modernizr-2.8.3.min.js-->
+
+    <script async="" src="./Index_files/analytics.js.download"></script><script type="text/javascript" async="" src="./Index_files/tracking.js.download"></script><script type="text/javascript" src="./Index_files/modernizr-2.8.3.min.js.download"></script><script type="text/javascript" src="./Index_files/jquery-1.11.3.min.js.download"></script>
+    
+
+
+    <script type="text/javascript">
+            
+        var __lc = {};
+        __lc.license = 6420071; //License
+        __lc.group = 3;
+
+        (function () {
+            var lc = document.createElement('script'); lc.type = 'text/javascript'; lc.async = true;
+            lc.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'cdn.livechatinc.com/tracking.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(lc, s);
+             
+        })();
+    </script>
+
+
+
+    <script type="text/javascript">
+
+        /*Browser Back button disabling */
+        function preventBack() {
+            window.history.forward(); 
+        
+        }
+        setTimeout("preventBack()", 0);
+        window.onunload = function () { null };
+        /* end- browser back button disabling */
+    </script>
+    <script type="text/javascript">
+        window.onerror = function (e) {
+            return true;
+        }
+
+    </script>
+
+    <script type="text/javascript">
+        function onLoad() {
+            try {
+                // sivamtime();
+
+                //Change background....
+                var loc = window.location.href;
+                var imgUrl = '';
+                var i = -1;
+                if (loc.indexOf("Modules") > -1) {
+                    i = loc.indexOf("Modules")
+                    imgUrl = loc.substr(0, i) + "Images/EIDATheme/mainbg.jpg";
+                }
+                //alert(imgUrl);
+                document.body.style.backgroundImage = "url(" + imgUrl + ")";
+            }
+            catch (ex) {
+            }
+        }
+
+
+        function QuickSearch(url) {
+            var value = document.getElementById("ctl00_moiSearch").value;
+            window.openHolder(url + value);
+            document.getElementById("ctl00_moiSearch").value = "";
+            return false;
+        }
+
+    </script>
+
+
+
+    <script>
+        (function (i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date(); a = s.createElement(o),
+             m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+        ga('create', 'UA-53702878-1', 'auto');
+        ga('send', 'pageview');
+    </script>
+    
+    <link id="ctl00_ResponsiveCss" rel="stylesheet" type="text/css" href="./Index_files/style_red_md_en.css">
+    
+    <script type="text/javascript">	
+        window.rsConf={general:{usePost:true}};
+    </script>
+    <script src="./Index_files/ReadSpeaker.js.download" type="text/javascript"></script><link id="rsmod_Styles" type="text/css" rel="stylesheet" href="./Index_files/ReadSpeaker.Styles.css"><script id="req_Core" type="text/javascript" src="./Index_files/ReadSpeaker.Core.js.download" async=""></script><script id="req_pub_Config" type="text/javascript" src="./Index_files/ReadSpeaker.pub.Config.js.download" async=""></script>
+
+
+<link href="./Index_files/default.css" type="text/css" rel="stylesheet"><link href="./Index_files/main.css" type="text/css" rel="stylesheet"><link href="./Index_files/normalize.css" type="text/css" rel="stylesheet"><link href="./Index_files/uploadify.css" type="text/css" rel="stylesheet"><script id="rsmod_lib_Facade.adapter.jquery" type="text/javascript" src="./Index_files/ReadSpeaker.lib.Facade.adapter.jquery.js.download"></script><script id="rsmod_Base" type="text/javascript" src="./Index_files/ReadSpeaker.Base.js.download" async=""></script><style type="text/css" id="readspeaker_inline_styles"></style></head>
+
+    <body data-gr-c-s-loaded="true" data-rsevent-id="rs_598218"><div class="ttspagehead" style="visibility:hidden;position:absolute">This is service Visainquiry page</div>
+        <form name="aspnetForm" method="post" action="https://www.moifawri.ae/Responsive/Modules/VisaManagement/VisaInquiry.aspx" id="aspnetForm" class="frm-eFormMainMasterResponsive">
+<div>
+<input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="">
+<input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUKLTU1NDExNTU4Mg9kFgJmD2QWAmYPZBYEZg9kFgICFg8WAh4EaHJlZgUkfi9jc3MvcmVzcG9uc2l2ZS9zdHlsZV9yZWRfbWRfZW4uY3NzZAIBD2QWDAIBD2QWAgIJDw8WAh4LTmF2aWdhdGVVcmwFO2h0dHBzOi8vd3d3Lm1vaS5nb3YuYWUvZW4vZXNlcnZpY2VzL3JlZ2lzdGVyLmFzcHg/bW9kZT1lZGl0ZGQCAg9kFgICAw8PFgIeDU9uQ2xpZW50Q2xpY2sFQndpbmRvdy5vcGVuKCcvRG9jdW1lbnRzL0Zhd3JpIFVzZXIgTWFudWFsIFYxLjEucGRmJyk7cmV0dXJuIGZhbHNlO2RkAgMPFgIeBXN0eWxlBVViYWNrZ3JvdW5kLWltYWdlOnVybCgnL0ltYWdlcy9GYXdyaVRoZW1lL2hlYWRlcl9iZy5qcGcnKTtiYWNrZ3JvdW5kLXJlcGVhdDpuby1yZXBlYXQ7ZAIUD2QWAmYPFgIeBFRleHQFDWVWaXNhIElucXVpcnlkAhYPZBYCAgEPDxYGHldbdmFsdWVdZGF0ZWwuZmF3cmkud2ViLnBvcnRhbC5zaGFyZWQuZW50aXRpZXMudmlzYWlucXVpcnlpbmZvLnZpc2FzZXJ2aWNldHlwZWlkWy92YWx1ZV1lHk5bdmFsdWVdZGF0ZWwuZmF3cmkud2ViLnBvcnRhbC5zaGFyZWQuZW50aXRpZXMudmlzYWlucXVpcnlpbmZvLmdlbmRlcmlkWy92YWx1ZV1lHlNbdmFsdWVdZGF0ZWwuZmF3cmkud2ViLnBvcnRhbC5zaGFyZWQuZW50aXRpZXMudmlzYWlucXVpcnlpbmZvLm5hdGlvbmFsaXR5aWRbL3ZhbHVlXWVkFgICBA88KwANAgAPFgIeD1NlbGVjdGVkSW5kZXhlcxYAZAEWAhYKDwIFFCsABTwrAAUBBAULVklTQV9OVU1CRVI8KwAFAQQFBk5BTUVfRTwrAAUBBAUGR0VOREVSPCsABQEEBQ1EQVRFX09GX0JJUlRIPCsABQEEBQtOQVRJT05BTElUWWRlFCsAAAspdlRlbGVyaWsuV2ViQ29udHJvbHMuR3JpZENoaWxkTG9hZE1vZGUsIFJhZEdyaWQuTmV0MiwgVmVyc2lvbj00LjYuMi4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWVjODdiYzI5MzllYzQ1ZGYBPCsABwALKXFUZWxlcmlrLldlYkNvbnRyb2xzLkdyaWRFZGl0TW9kZSwgUmFkR3JpZC5OZXQyLCBWZXJzaW9uPTQuNi4yLjAsIEN1bHR1cmU9bmV1dHJhbCwgUHVibGljS2V5VG9rZW49ZWM4N2JjMjkzOWVjNDVkZgEWAh4EX2Vmc2RkZGZkAlAPFgIfBAU+Q09QWVJJR0hUIMKpIDIwMTcgLSBNSU5JU1RSWSBPRiBJTlRFUklPUi4gQUxMIFJJR0hUUyBSRVNFUlZFRC5kGAEFHl9fQ29udHJvbHNSZXF1aXJlUG9zdEJhY2tLZXlfXxYBBTZjdGwwMCRDb250ZW50UGxhY2VIb2xkZXIxJFVDVmlzYUlucXVpcnkxJHJhZEdyaWRNYW5hZ2UoVFkhZa2FZd69mHT3izpowyWQAg==">
+</div>
+
+<script type="text/javascript">
+//<![CDATA[
+var theForm = document.forms['aspnetForm'];
+if (!theForm) {
+    theForm = document.aspnetForm;
+}
+function __doPostBack(eventTarget, eventArgument) {
+    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+        theForm.__EVENTTARGET.value = eventTarget;
+        theForm.__EVENTARGUMENT.value = eventArgument;
+        theForm.submit();
+    }
+}
+//]]>
+</script>
+
+
+<script src="./Index_files/WebResource.axd" type="text/javascript"></script>
+
+
+<script type="text/javascript">
+//<![CDATA[
+function CallServer(arg, context) {WebForm_DoCallback('ctl00$ContentPlaceHolder1$UCVisaInquiry1',arg,ReceiveServerData,context,null,false); }function GetFontSize() { return '';}    function IsBlueTheme() { return '0';}    function IsArabic() { return '0';}    function IsBlueColorBliendTheme() { return '0';}//]]>
+</script>
+
+<script src="./Index_files/ScriptResource.axd" type="text/javascript"></script>
+<script src="./Index_files/ScriptResource(1).axd" type="text/javascript"></script>
+<div>
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="EBCFA2A9">
+</div>
+            
+
+            <input type="hidden" value="False" id="hdnIsLanguageArabic">
+            <div class="AudioDiv" style="position: fixed; top: 1%; left: 45%; z-index: 99;">
+                <input class="btnPlay" type="button" value="" style="display: none;" onclick="register.Accessibility.TTS.PlayText(&#39;MS&#39;); ">
+                <audio controls="" id="speak" style="display: none;"></audio>
+            </div>
+            
+            <!-- Applied form-horizontal class form in code-behind-->
+            <!--[if lt IE 8]>
+<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade
+    your browser</a> to improve your experience.</p>
+<![endif]-->
+
+
+            
+            <div id="div_GrayBackround" style="display: none;"></div>
+            <div id="div_loading" style="display: none;">
+                <img src="./Index_files/load.gif">
+            </div>
+
+            
+
+            <!-- Add your site or application content here -->
+            <div class="masterContainer">
+                <header>
+                    <div class="container">
+                        <div class="row">
+                            <div class="topLinks">
+                                <div class="userPreferences pull-right">
+                                    <ul class="nav navbar-nav navbar-right">
+                                        <li class="lang">
+                                            <a id="ctl00_lnkLang" title="Click to change to Arabic language" href="javascript:__doPostBack(&#39;ctl00$lnkLang&#39;,&#39;&#39;)">اللغة العربية</a></li>
+                                        <li></li>
+                                        <li id="ctl00_liDropdown" class="dropdown userAcc forceHide">
+                                            
+                                            <ul class="dropdown-menu" aria-labelledby="userPreferences">
+                                                <li class="mobile-menu">
+                                                    <a id="ctl00_lnkeVisaInquiryMobile" title="Click for eVisa Inquiry" href="javascript:__doPostBack(&#39;ctl00$lnkeVisaInquiryMobile&#39;,&#39;&#39;)">eVisa Inquiry</a></li>
+                                                
+                                                <li class="mobile-menu">
+                                                    <a id="ctl00_lnkUserManualMobile" title="Click to download user manual" href="javascript:__doPostBack(&#39;ctl00$lnkUserManualMobile&#39;,&#39;&#39;)">User Manual</a></li>
+                                                <li class="mobile-menu">
+                                                    <a id="ctl00_lnkFAQMobile" title="Click to go to FAQ page" href="javascript:__doPostBack(&#39;ctl00$lnkFAQMobile&#39;,&#39;&#39;)">FAQs</a></li>
+                                                <li class="mobile-menu">
+                                                    <a id="lnkContactUsMobile" title="Contact Us" href="https://www.moi.gov.ae/en/contactus.aspx" target="_New">
+                                                        Contact Us
+                                                    </a>
+                                                </li>
+                                                
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div id="ctl00_divTopMenu" class="tnav topNav forceDisplay">
+                                    <!-- forceDisplay class only for pre-login pages-->
+                                    <ul class="list-inline">
+                                        <li>
+                                            <a id="ctl00_lnkHome" title="Click to go home page" href="javascript:__doPostBack(&#39;ctl00$lnkHome&#39;,&#39;&#39;)">Home</a></li>
+                                        <li>
+                                            <a id="ctl00_lnkeVisaInquiry" title="Click for eVisa Inquiry" href="javascript:__doPostBack(&#39;ctl00$lnkeVisaInquiry&#39;,&#39;&#39;)">eVisa Inquiry</a></li>
+                                        <li>
+                                            
+                                        </li><li>
+                                            <a onclick="window.open(&#39;/Documents/Fawri User Manual V1.1.pdf&#39;);return false;" id="ctl00_lnkUserManual" title="Click to download user manual" href="javascript:__doPostBack(&#39;ctl00$lnkUserManual&#39;,&#39;&#39;)">User Manual</a></li>
+                                        <li>
+                                            <a id="ctl00_lnkFAQ" title="Click to go to FAQ page" href="javascript:__doPostBack(&#39;ctl00$lnkFAQ&#39;,&#39;&#39;)">FAQs</a></li>
+                                        <li>
+                                            <a id="lnkContactUs" title="Contact Us" href="https://www.moi.gov.ae/en/contactus.aspx" target="_New">
+                                                Contact Us
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div id="ctl00_headerDiv" class="banner" style="background-image:url(&#39;/Images/FawriTheme/header_bg.jpg&#39;);background-repeat:no-repeat;">
+                                <div class="uaeLogo pull-left">
+                                    <h2 class="pull-left">
+                                        <a href="https://www.moi.gov.ae/" target="_blank">
+                                            <img id="ctl00_Image1" class="img-responsive" src="./Index_files/uae_logo.png" alt="UAE Logo" style="border-width:0px;"></a>
+                                    </h2>
+                                    <div class="hgroup">
+                                        <h3>
+                                            United Arab Emirates</h3>
+                                        <h4>
+                                            Ministry of Interior</h4>
+                                    </div>
+                                </div>
+                                <div class="appLogo pull-left">
+
+                                    <h1>
+                                        <img id="ctl00_Image2" class="img-responsive" src="./Index_files/fawrilogo.png" alt="Fawri Logo" style="border-width:0px;">
+                                    </h1>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </header>
+                <div class="contentContainer">
+                    <div class="contentMaster container">
+                        
+
+
+
+                        <!-- breadcrumbs / Page Heading (e.g Service Selection or Application Management etc.) -->
+                        <ul class="breadcrumb" style="vertical-align: text-top">
+
+
+                            <li>
+
+                                </li>
+                            <!-- Print button start -->
+                            <li id="ctl00_printContent" class="aaa-accessibility" style="float:right" title="Print"><a id="printForm" href="javascript:void(0)" onclick="window.print();" alt="asdasd">
+                                <img id="pageRenderPrint" alt="Print" src="./Index_files/Print.png"></a></li>
+                            <!-- Print button end -->
+                            <li id="ctl00_AAAaccessibility" class="aaa-accessibility" style="float:right">
+                                <a id="ctl00_lblAAAaccessibilitySmallAr" title="Small Font" value="aaa-small" href="javascript:__doPostBack(&#39;ctl00$lblAAAaccessibilitySmallAr&#39;,&#39;&#39;)">
+                                    <span class="aaa-link small-aaa">
+                                        A</span>
+                                </a>
+                                <a id="ctl00_lblAAAaccessibilityMediumAr" title="Regular Font" value="aaa-medium" href="javascript:__doPostBack(&#39;ctl00$lblAAAaccessibilityMediumAr&#39;,&#39;&#39;)">
+                                    <span class="aaa-link medium-aaa">
+                                        A</span>
+                                </a>
+                                <a id="ctl00_lblAAAaccessibilityLargeAr" title="Large Font" value="aaa-large" href="javascript:__doPostBack(&#39;ctl00$lblAAAaccessibilityLargeAr&#39;,&#39;&#39;)">
+                                    <span class="aaa-link large-aaa">
+                                        A</span>
+                                </a>
+                            </li>
+                            <li style="float:right">
+                                <a id="ctl00_btnGold" title="Gold" href="javascript:__doPostBack(&#39;ctl00$btnGold&#39;,&#39;&#39;)">
+                                <img id="gold" src="./Index_files/Gold.png">
+                                </a>
+                            </li>
+
+                            <li style="float:right">
+                                <a id="ctl00_btnGreen" title="Green" href="javascript:__doPostBack(&#39;ctl00$btnGreen&#39;,&#39;&#39;)">
+                                    <img id="green" src="./Index_files/Green.png">
+                                </a>
+                            </li>
+                            <li style="float:right">
+                                <a id="ctl00_btnBlueTheme" title="Blue" href="javascript:__doPostBack(&#39;ctl00$btnBlueTheme&#39;,&#39;&#39;)">
+                                    <img id="blue" src="./Index_files/Blue.png">
+                                </a>
+                            </li>
+                            <li style="float:right">
+                                <a id="ctl00_btnRed" title="Red" href="javascript:__doPostBack(&#39;ctl00$btnRed&#39;,&#39;&#39;)">
+                                    <img id="red" src="./Index_files/Red.png">
+                                </a>
+                            </li>
+                            <li style="float:right">
+                                <a id="ctl00_btnColorBlind" class="fa  fa-eye" href="javascript:__doPostBack(&#39;ctl00$btnColorBlind&#39;,&#39;&#39;)"></a>
+                            </li>
+                            <li id="ctl00_liNews" style="float:right"><a id="lnkNewsLetter" onclick="window.open(&#39;../External/NEWSLetterSubscription.aspx&#39;);return false;" title="Subscribe to Newsletter" href="https://www.moifawri.ae/Responsive/Modules/VisaManagement/VisaInquiry.aspx#" target="_self">
+                                <i class="fa fa-envelope"></i>
+                            </a></li>
+                            <li style="float:right">
+                                <i class="search fa  fa-search" onclick="$(&#39;.search-open&#39;).toggle();" style="cursor: pointer;"></i>
+
+                                <div class="search-open" style="display: none; width: 326px; z-index: 2000; position: absolute; margin-top: 8px; right: 0; background-color: #eeeeee">
+                                    <div class="input-group " style="padding: 15px 15px 15px 15px">
+                                        <input name="ctl00$moiSearch" type="text" id="ctl00_moiSearch" class="form-control" placeholder="Enter Text" aria-describedby="basic-addon2">
+                                        <span class="input-group-btn">
+                                            <a onclick="return QuickSearch(&#39;https://www.moi.gov.ae/en/eservices/default.aspx?type=30&amp;dir=13&amp;cat=381&amp;ben=-1&amp;serName=&#39;);" id="ctl00_lbtnSearchLinkEn" class="btn btnBlack" href="javascript:__doPostBack(&#39;ctl00$lbtnSearchLinkEn&#39;,&#39;&#39;)">
+                                            <span class="fa fa-search"></span>
+                                            </a>
+                                            
+                                        </span>
+                                    </div>
+                                </div>
+                            </li>
+                            <li style="float:right">
+                                
+                                <a href="https://www.moifawri.ae/Responsive/Modules/ServiceCenterLocation.html" title="Service Centers Location" target="_blank">
+                                    <img style="width: 20px; height: 20px" src="./Index_files/google_map_icon.png"></a>
+                                </li>
+
+                            <!--TextToSpeech - Start-->
+                            <li id="liTTS" class="pull-right">
+                                <div id="readspeaker_button1" class="rs_skip rsbtn rs_preserve" style="margin-top: -15% !important;">
+                                    <a rel="nofollow" class="rsbtn_play" accesskey="L" title="Listen to this page using ReadSpeaker" data-rsevent-id="rs_79642" role="button">
+                                        <span class="rsbtn_left rsimg rspart"><span class="rsbtn_text"><span>Listen</span></span></span>
+                                        <span class="rsbtn_right rsimg rsplay rspart" id="btnTTSPlay"></span>
+                                    </a>
+                                </div>
+                            </li>
+                            <li style="float:right"></li>
+                            <!--TextToSpeech - End-->
+
+
+                        </ul>
+
+
+
+                        <div id="ctl00_div1" class="row ttsdesc">
+                            <div class="col-xs-9" style="font-size: 18px;">
+                                <strong>
+                                    eVisa Inquiry
+
+                                </strong>
+                            </div>
+                            </div>
+
+                        <script type="text/javascript">
+//<![CDATA[
+Sys.WebForms.PageRequestManager._initialize('ctl00$ScriptManager1', document.getElementById('aspnetForm'));
+Sys.WebForms.PageRequestManager.getInstance()._updateControls([], [], [], 90);
+//]]>
+</script>
+
+                        <!-- Content PlaceHolder -->
+                        <div class="alert-message master-alert-message"></div>
+                        
+
+    <div class="row">
+        <div class="col-sm-12">
+            
+
+<script src="./Index_files/jquery-1.4.4.min.js.download" type="text/javascript"></script>
+<script src="./Index_files/Common.js.download" type="text/javascript"></script>
+<script src="./Index_files/jquery-ui-1.8.10.custom.min.js.download" type="text/javascript"></script>
+<script src="./Index_files/EIDAFormValidationEngine.js.download" type="text/javascript"></script>
+<script src="./Index_files/generalscript.js.download" type="text/javascript"></script>
+<script src="./Index_files/DF-Util-1.0.0.js.download" type="text/javascript"></script>
+<script src="./Index_files/jquery.validate.js.download" type="text/javascript"></script>
+<script src="./Index_files/jquery.watermark.min.js.download" type="text/javascript"></script>
+<script src="./Index_files/jquery.maskedinput-1.3.min_.js.download" type="text/javascript"></script>
+
+<link href="./Index_files/jquery-ui-1.8.15.custom.css" rel="stylesheet" type="text/css">
+
+<script type="text/javascript">
+
+    //NOTE: Required by Calendar control of UIGFX
+    //pathToImages = '../../images/calendar/';
+    setImagePathPrefix('../../');
+
+    var serverDate = '11/04/2017';
+
+    function OnBackClick() {
+        window.location = '../../../Modules/AppSecurity/Home.aspx';
+        return false;
+    }
+
+    function OnVisaInquirySubmit() {
+        var validEngine = new FormValidationEngine();
+        validEngine.emptyMsg = 'Please enter data for this field';
+        validEngine.formatMsg = 'Please enter Correct Format: ';
+        validEngine.formatMsgDate = 'Please enter Valid' + " ";
+        validEngine.language = '0';
+        validEngine.showTooltip = true;
+        validEngine.suppressErrorMsg = true;
+
+        var rVal;
+        try {
+            rVal = validEngine.validateForm('ctl00_ContentPlaceHolder1_UCVisaInquiry1_phForm');
+        }
+        catch (error) {
+
+            alert(error.description);
+
+            validEngine.valid = false;
+
+            if (!document.onLoadValidationInProgress) {
+                //alert("Unknown error occur while validating: " + error.description);
+                alert(unKnown + error.description);
+            }
+        }
+
+        if (!validEngine.valid || !validEngine.validFormat) {
+
+            if (!document.onLoadValidationInProgress) {
+
+                //TODO: MOFA CR - Translation required
+                //userRes = alert("Some fields have missing or invalid data. Cannot conitnue with save.");
+                userRes = false;
+
+                if (userRes && !validEngine.validFormat) {
+
+                    for (i = 0; i < validEngine.valErrorControls.length; i++) {
+                        if (validEngine.valErrorControls[i].ctrl != undefined)
+                            validEngine.valErrorControls[i].ctrl.value = "";
+                    }
+                }
+            }
+
+            return false;
+        }
+        else {
+            return true;
+        }
+    }
+
+    function OnResetClick() {
+
+        try {
+            document.forms[0].reset();
+
+            SetVisaEnabled(true);
+
+            var txt = GetElementByUIGFXUniqueId("VisaNumber1");
+            txt.focus();
+
+            txt = GetElementByUIGFXUniqueId("VisaNumber2");
+            txt.focus();
+
+            txt = GetElementByUIGFXUniqueId("VisaNumber3");
+            txt.focus();
+
+            txt = GetElementByUIGFXUniqueId("VisaNumber4");
+            txt.focus();
+
+            txt = GetElementByUIGFXUniqueId("DateOfBirth");
+            txt.focus();
+
+            var btnResetObj = document.getElementById("ctl00_ContentPlaceHolder1_UCVisaInquiry1_btnReset");
+            btnResetObj.focus();
+
+            SetVisaEnabled(false);
+
+            return false;
+        }
+        catch (e) {
+            alert(e.message);
+        }
+    }
+
+    function OnServiceSelected(combo) {
+        try {
+            if (combo == undefined || combo.value == "") {
+                SetVisaEnabled(false);
+            }
+            else {
+                SetVisaEnabled(true);
+            }
+        }
+        catch (e) {
+            alert(e.message);
+        }
+    }
+
+    function SetVisaEnabled(enabled) {
+        try {
+            var disabledVal, backgroundColorVal;
+
+            if (enabled == false) {
+                disabledVal = true;
+                backgroundColorVal = "#EEEEEE";
+            }
+            else {
+                disabledVal = false;
+                backgroundColorVal = "#FFFFFF";
+            }
+
+            var controlIdsArr = ["VisaNumber1", "VisaNumber2", "VisaNumber3", "VisaNumber4"];
+            for (var x = 0; x < controlIdsArr.length; x++) {
+                var control = GetElementByUIGFXUniqueId(controlIdsArr[x]);
+                control.disabled = disabledVal;
+                control.style.backgroundColor = backgroundColorVal;
+            }
+        }
+        catch (e) {
+            alert(e.message);
+        }
+    }
+
+    function OnDocumentLoad() {
+        SetVisaEnabled(false);
+    }
+
+    function ResetCode() {
+
+    }
+
+
+    function OnCaptchaKeyPress(event) {
+
+        try {
+            var keycode;
+
+            if (window.event)
+                keycode = window.event.keyCode;
+            else if (event)
+                keycode = event.keyCode;
+            else if (e)
+                keycode = e.which;
+            else
+                return true;
+
+            if (keycode == 13) {
+                //document.forms[0].submit();
+                document.getElementById("ctl00_ContentPlaceHolder1_UCVisaInquiry1_btnSubmit").click();
+                return false;
+            }
+
+            return (numeric_only(event));
+        }
+        catch (e) {
+            alert(e.message);
+        }
+    }
+
+    // Register event
+    $(OnDocumentLoad);
+
+</script>
+
+<table style="width: 100%">
+    <tbody><tr>
+        <td>
+            <br>
+            <div class="form-div-Custom" id="VisaInquiryInfo" name="VisaInquiryInfo">
+    
+    <div class="form-group " id="Datel_Fawri_Web_Portal_Shared_Entities_VisaInquiryInfo_VisaServiceTypeId_GRP"><label class="control-label col-sm-3">Select Service To Inquire<span class="Man">*</span>&nbsp;:&nbsp;</label><div class="col-sm-7"><div class="row">
+ <div class="col-xs-2 initial-input">
+<input class="form-control" name="Datel_Fawri_Web_Portal_Shared_Entities_VisaInquiryInfo_VisaServiceTypeId_VAL_TXT" id="Datel_Fawri_Web_Portal_Shared_Entities_VisaInquiryInfo_VisaServiceTypeId_VAL_TXT" type="text" value="" onkeypress="return(numeric_only(event))" onkeydown="javascript:return(enter_to_tab(event));" onchange="SelectItemByValueDdl(&#39;Datel_Fawri_Web_Portal_Shared_Entities_VisaInquiryInfo_VisaServiceTypeId&#39;,this.value,&#39;/LookupService.svc/&#39;,&#39;&#39;)"> 
+</div>
+
+<div class="col-xs-10">
+<select class="form-control" name="Datel_Fawri_Web_Portal_Shared_Entities_VisaInquiryInfo_VisaServiceTypeId" id="Datel_Fawri_Web_Portal_Shared_Entities_VisaInquiryInfo_VisaServiceTypeId" onchange="SetValueToTextbox(&#39;Datel_Fawri_Web_Portal_Shared_Entities_VisaInquiryInfo_VisaServiceTypeId_VAL_TXT&#39;,this.value); OnServiceSelected(this);" rule="*" validationmsglabel="Datel_Fawri_Web_Portal_Shared_Entities_VisaInquiryInfo_VisaServiceTypeId_MSG" ccd_ct="04-May-2018|04-Nov-2027" onkeydown="javascript:return(enter_to_tab(event));" pleaseselect="---- Select Service ----" pleasewait="---- Select Service ----"><option value="" id="" selected="">---- Select Service ----</option><option value="1" id="">Entry Permit Validity</option></select> 
+
+ <span id="Datel_Fawri_Web_Portal_Shared_Entities_VisaInquiryInfo_VisaServiceTypeId_MSG" style="color:Red;"></span> 
+</div>
+</div></div></div><div class="form-group " id="Datel_Fawri_Web_Portal_Shared_Entities_VisaInquiryInfo_VisaNumber0_GRP"><label class="control-label col-sm-3">Visa Number<span class="ManShowHide">*</span>&nbsp;:&nbsp;</label><div class="col-sm-7"><div class="row"><div class="col-xs-2 initial-input"><input type="text" class="form-control NoPadding" id="Datel_Fawri_Web_Portal_Shared_Entities_VisaInquiryInfo_VisaNumber1" value="" name="Datel_Fawri_Web_Portal_Shared_Entities_VisaInquiryInfo_VisaNumber1" onkeypress="return(numeric_only(event))" maxlength="3" onkeydown="javascript:return(enter_to_tab(event));" placeholder="Enter Number" rule="*|NUM_VISA" validationmsglabel="Datel_Fawri_Web_Portal_Shared_Entities_VisaInquiryInfo_VisaNumber1_MSG" custtag="3" ccd_ct="04-May-2018|04-Nov-2027" disabled="" style="background-color: rgb(238, 238, 238);"><span id="Datel_Fawri_Web_Portal_Shared_Entities_VisaInquiryInfo_VisaNumber1_MSG" style="color:Red;"></span>  </div><div class="col-xs-3 NoPadding"><input type="text" class="form-control NoPadding" id="Datel_Fawri_Web_Portal_Shared_Entities_VisaInquiryInfo_VisaNumber2" value="" name="Datel_Fawri_Web_Portal_Shared_Entities_VisaInquiryInfo_VisaNumber2" onkeypress="return(numeric_only(event))" maxlength="4" onkeydown="javascript:return(enter_to_tab(event));" placeholder="Enter Number" rule="*|NUM_VISA" validationmsglabel="Datel_Fawri_Web_Portal_Shared_Entities_VisaInquiryInfo_VisaNumber2_MSG" custtag="4" ccd_ct="04-May-2018|04-Nov-2027" disabled="" style="background-color: rgb(238, 238, 238);"><span id="Datel_Fawri_Web_Portal_Shared_Entities_VisaInquiryInfo_VisaNumber2_MSG" style="color:Red;"></span>  </div><div class="col-xs-2 NoPadding"><input type="text" class="form-control NoPadding" id="Datel_Fawri_Web_Portal_Shared_Entities_VisaInquiryInfo_VisaNumber3" value="" name="Datel_Fawri_Web_Portal_Shared_Entities_VisaInquiryInfo_VisaNumber3" onkeypress="return(numeric_only(event))" maxlength="2" onkeydown="javascript:return(enter_to_tab(event));" placeholder="Enter Number" rule="*|NUM_VISA" validationmsglabel="Datel_Fawri_Web_Portal_Shared_Entities_VisaInquiryInfo_VisaNumber3_MSG" custtag="2" ccd_ct="04-May-2018|04-Nov-2027" disabled="" style="background-color: rgb(238, 238, 238);"><span id="Datel_Fawri_Web_Portal_Shared_Entities_VisaInquiryInfo_VisaNumber3_MSG" style="color:Red;"></span>  </div><div class="col-xs-5 NoPadding"><input type="text" class="form-control NoPadding" id="Datel_Fawri_Web_Portal_Shared_Entities_VisaInquiryInfo_VisaNumber4" value="" name="Datel_Fawri_Web_Portal_Shared_Entities_VisaInquiryInfo_VisaNumber4" onkeypress="return(numeric_only(event))" maxlength="7" onkeydown="javascript:return(enter_to_tab(event));" placeholder="Enter Number" rule="*|NUM_VISA" validationmsglabel="Datel_Fawri_Web_Portal_Shared_Entities_VisaInquiryInfo_VisaNumber4_MSG" custtag="7" ccd_ct="04-May-2018|04-Nov-2027" disabled="" style="background-color: rgb(238, 238, 238);"><span id="Datel_Fawri_Web_Portal_Shared_Entities_VisaInquiryInfo_VisaNumber4_MSG" style="color:Red;"></span>  </div></div></div></div><div class="form-group " id="Datel_Fawri_Web_Portal_Shared_Entities_VisaInquiryInfo_Name_GRP"><label class="control-label col-sm-3">Full Name In English<span class="Man">*</span>&nbsp;:&nbsp;</label><div class="col-sm-7"><input type="text" class="form-control" id="Datel_Fawri_Web_Portal_Shared_Entities_VisaInquiryInfo_Name" value="" name="Datel_Fawri_Web_Portal_Shared_Entities_VisaInquiryInfo_Name" onblur="MakeValidString(this);" onkeypress="return(EnglishOnly_Event(event))" maxlength="100" onkeydown="javascript:return(enter_to_tab(event));" rule="*|EN" validationmsglabel="Datel_Fawri_Web_Portal_Shared_Entities_VisaInquiryInfo_Name_MSG" ccd_ct="04-May-2018|04-Nov-2027" placeholder="Enter Text"><span id="Datel_Fawri_Web_Portal_Shared_Entities_VisaInquiryInfo_Name_MSG" style="color:Red;"></span>  </div></div><div class="form-group " id="Datel_Fawri_Web_Portal_Shared_Entities_VisaInquiryInfo_GenderId_GRP"><label class="control-label col-sm-3">Gender<span class="Man">*</span>&nbsp;:&nbsp;</label><div class="col-sm-7"><div class="row">
+ <div class="col-xs-2 initial-input">
+<input class="form-control" name="Datel_Fawri_Web_Portal_Shared_Entities_VisaInquiryInfo_GenderId_VAL_TXT" id="Datel_Fawri_Web_Portal_Shared_Entities_VisaInquiryInfo_GenderId_VAL_TXT" type="text" value="" onkeypress="return(numeric_only(event))" onkeydown="javascript:return(enter_to_tab(event));" onchange="SelectItemByValueDdl(&#39;Datel_Fawri_Web_Portal_Shared_Entities_VisaInquiryInfo_GenderId&#39;,this.value,&#39;/LookupService.svc/GetSexList&#39;,&#39;&#39;)"> 
+</div>
+
+<div class="col-xs-10">
+<select class="form-control" name="Datel_Fawri_Web_Portal_Shared_Entities_VisaInquiryInfo_GenderId" id="Datel_Fawri_Web_Portal_Shared_Entities_VisaInquiryInfo_GenderId" onchange="SetValueToTextbox(&#39;Datel_Fawri_Web_Portal_Shared_Entities_VisaInquiryInfo_GenderId_VAL_TXT&#39;,this.value)" rule="*" validationmsglabel="Datel_Fawri_Web_Portal_Shared_Entities_VisaInquiryInfo_GenderId_MSG" ccd_ct="04-May-2018|04-Nov-2027" onkeydown="javascript:return(enter_to_tab(event));" pleaseselect="---- Select Gender ----" pleasewait="Please Wait"><option value="" id="" selected="">---- Select Gender ----</option><option value="2" title="Female">Female</option><option value="1" title="Male">Male</option></select> 
+
+ <span id="Datel_Fawri_Web_Portal_Shared_Entities_VisaInquiryInfo_GenderId_MSG" style="color:Red;"></span> 
+</div>
+</div></div></div><div class="form-group " id="Datel_Fawri_Web_Portal_Shared_Entities_VisaInquiryInfo_DateOfBirth_GRP"><label class="control-label col-sm-3">Date of Birth<span class="Man">*</span>&nbsp;:&nbsp;</label><div class="col-sm-7"><div class="row fawri-calendar-select"><div class="col-xs-4"><select class="form-control fawri-calendar-day fawri-calendar-combo"><option value="">DD</option><option value="1">01</option><option value="2">02</option><option value="3">03</option><option value="4">04</option><option value="5">05</option><option value="6">06</option><option value="7">07</option><option value="8">08</option><option value="9">09</option><option value="10">10</option><option value="11">11</option><option value="12">12</option><option value="13">13</option><option value="14">14</option><option value="15">15</option><option value="16">16</option><option value="17">17</option><option value="18">18</option><option value="19">19</option><option value="20">20</option><option value="21">21</option><option value="22">22</option><option value="23">23</option><option value="24">24</option><option value="25">25</option><option value="26">26</option><option value="27">27</option><option value="28">28</option><option value="29">29</option><option value="30">30</option><option value="31">31</option></select></div><div class="col-xs-4"><select class="form-control  fawri-calendar-month fawri-calendar-combo"><option value="" selected="">MMM</option><option value="1">Jan</option><option value="2">Feb</option><option value="3">Mar</option><option value="4">Apr</option><option value="5">May</option><option value="6">Jun</option><option value="7">Jul</option><option value="8">Aug</option><option value="9">Sep</option><option value="10">Oct</option><option value="11">Nov</option><option value="12">Dec</option></select></div><div class="col-xs-4"><input type="number" class="form-control  fawri-calendar-year fawri-calendar-combo" min="1900" max="2067" placeholder="YYYY"></div></div><div class="input-group date fawri-calendar-div"><input type="text" class="form-control fawri-calendar" id="Datel_Fawri_Web_Portal_Shared_Entities_VisaInquiryInfo_DateOfBirth" value="" name="Datel_Fawri_Web_Portal_Shared_Entities_VisaInquiryInfo_DateOfBirth" onblur="return(makeValidDate(GetElementByUIGFXUniqueId(&#39;DateOfBirth&#39;).id,GetLanguage()))" onkeypress="return GetLanguage()==&#39;en-US&#39;?EnglishCustomSymbol_Event(event, &#39;0123456789-&#39;):ArabicCustomSymbol_Event(event, &#39;0123456789-&#39;)" maxlength="11" onkeydown="javascript:return(enter_to_tab(event));" placeholder="Enter Text" rule="*|DATE|CDV_IPD" validationmsglabel="Datel_Fawri_Web_Portal_Shared_Entities_VisaInquiryInfo_DateOfBirth_MSG" cdv_ipd_msg="Date should not be greater than today | التاريخ لا يمكن أن يكون في المستقبل" ccd_ct="04-May-2018|04-Nov-2027">  <div class="input-group-addon"><span class="fa fa-calendar"></span></div></div><span id="Datel_Fawri_Web_Portal_Shared_Entities_VisaInquiryInfo_DateOfBirth_MSG" style="color:Red;"></span> </div></div><div class="form-group " id="Datel_Fawri_Web_Portal_Shared_Entities_VisaInquiryInfo_NationalityId_GRP"><label class="control-label col-sm-3">Nationality<span class="Man">*</span>&nbsp;:&nbsp;</label><div class="col-sm-7"><div class="row">
+ <div class="col-xs-2 initial-input">
+<input class="form-control" name="Datel_Fawri_Web_Portal_Shared_Entities_VisaInquiryInfo_NationalityId_VAL_TXT" id="Datel_Fawri_Web_Portal_Shared_Entities_VisaInquiryInfo_NationalityId_VAL_TXT" type="text" value="" onkeypress="return(numeric_only(event))" onkeydown="javascript:return(enter_to_tab(event));" onchange="SelectItemByValueDdl(&#39;Datel_Fawri_Web_Portal_Shared_Entities_VisaInquiryInfo_NationalityId&#39;,this.value,&#39;/LookupService.svc/GetNationalityList?property={2}&amp;val={1}&#39;,&#39;&#39;)"> 
+</div>
+
+<div class="col-xs-10">
+<div class="input-group">
+<select class="form-control" name="Datel_Fawri_Web_Portal_Shared_Entities_VisaInquiryInfo_NationalityId" id="Datel_Fawri_Web_Portal_Shared_Entities_VisaInquiryInfo_NationalityId" onchange="SetValueToTextbox(&#39;Datel_Fawri_Web_Portal_Shared_Entities_VisaInquiryInfo_NationalityId_VAL_TXT&#39;,this.value)" rule="*" validationmsglabel="Datel_Fawri_Web_Portal_Shared_Entities_VisaInquiryInfo_NationalityId_MSG" ccd_ct="04-May-2018|04-Nov-2027" onkeydown="javascript:return(enter_to_tab(event));" pleaseselect="---- Select Nationality ----" pleasewait="Please Wait"><option value="" id="" selected="">---- Select Nationality ----</option><option value="490" title="***">***</option><option value="209" title="AFGHANISTANI">AFGHANISTANI</option><option value="300" title="AFRICAN COUNTRIES">AFRICAN COUNTRIES</option><option value="473" title="ALBANI">ALBANI</option><option value="276" title="ALFARO IELANDS">ALFARO IELANDS</option><option value="131" title="ALGERIAN">ALGERIAN</option><option value="502" title="AMERICAN">AMERICAN</option><option value="445" title="ANDORO">ANDORO</option><option value="305" title="ANJOLIAN">ANJOLIAN</option><option value="805" title="ANTIGUA AND BRABUDA">ANTIGUA AND BRABUDA</option><option value="251" title="ANTIGWA">ANTIGWA</option><option value="605" title="ARGENTNI">ARGENTNI</option><option value="263" title="ARMINIAN">ARMINIAN</option><option value="200" title="ASIAN">ASIAN</option><option value="441" title="ATICANI">ATICANI</option></select> 
+
+<div class="input-group-addon">
+<a onclick="OpenSearchDialogGenResponsive(&#39;N&#39;,&#39;N&#39;,&#39;Datel_Fawri_Web_Portal_Shared_Entities_VisaInquiryInfo_NationalityId&#39;,&#39;Datel_Fawri_Web_Portal_Shared_Entities_VisaInquiryInfo_NationalityId_VAL_TXT&#39;,&#39;&#39;,&#39;&#39;,&#39;&#39;, &#39;../&#39;, &#39;&#39;);return false;" style="cursor:pointer" class="fa fa-search"></a> <span id="Datel_Fawri_Web_Portal_Shared_Entities_VisaInquiryInfo_NationalityId_MSG" style="color:Red;"></span> 
+</div>
+</div>
+</div>
+</div></div></div><div class="form-group " id="Datel_Fawri_Web_Portal_Shared_Entities_VisaInquiryInfo_Captcha1_GRP"><label class="control-label col-sm-3"></label><div class="col-sm-7"><script type="text/javascript">function refreshCaptchaDatel_Fawri_Web_Portal_Shared_Entities_VisaInquiryInfo_Captcha1(){
+            $("#Datel_Fawri_Web_Portal_Shared_Entities_VisaInquiryInfo_Captcha1").val("");
+            $("#Datel_Fawri_Web_Portal_Shared_Entities_VisaInquiryInfo_Captcha1_IMG").attr('src',"CaptchaHandler.ashx?action=get&id=Datel_Fawri_Web_Portal_Shared_Entities_VisaInquiryInfo_Captcha1&time=" + new Date());
+        }</script>
+          <img src="./Index_files/CaptchaHandler.ashx" id="Datel_Fawri_Web_Portal_Shared_Entities_VisaInquiryInfo_Captcha1_IMG" class="">
+          <br>
+          <input type="text" id="Datel_Fawri_Web_Portal_Shared_Entities_VisaInquiryInfo_Captcha1" class="stdTextBox" maxlength="7" onkeypress="return OnCaptchaKeyPress(event);" rule="*|CAPTCHA" validationmsglabel="Datel_Fawri_Web_Portal_Shared_Entities_VisaInquiryInfo_Captcha1_MSG" ccd_ct="04-May-2018|04-Nov-2027" placeholder="Enter Text">
+          <br><span class="stdLabel2">Please enter the above given code</span>| <a href="https://www.moifawri.ae/Responsive/Modules/VisaManagement/Refresh" onclick="refreshCaptchaDatel_Fawri_Web_Portal_Shared_Entities_VisaInquiryInfo_Captcha1();return false;" class="CaptchaRefresh">Try a new code</a>
+        <span id="Datel_Fawri_Web_Portal_Shared_Entities_VisaInquiryInfo_Captcha1_MSG" style="color:Red;"></span> </div></div>
+    
+</div><input name="Datel_Fawri_Web_Portal_Shared_Entities_VisaInquiryInfo_DateOfBirth_WATERMARK" type="hidden" value="dd-mmm-yyyy"><input type="hidden" value="en-US" id="uigfx_language_field">
+        </td>
+    </tr>
+    <tr>
+        <td align="center">
+            <div class="col-sm-offset-1 col-sm-10">
+                <div class="row voffset2" style="align-content: center">
+                    <div class="col-sm-12">
+                        <div class="form-group">
+                            <input type="submit" name="ctl00$ContentPlaceHolder1$UCVisaInquiry1$btnBack" value="Back" onclick="return OnBackClick();" id="ctl00_ContentPlaceHolder1_UCVisaInquiry1_btnBack" tabindex="2" class="btn btnBlack">
+                            <input type="submit" name="ctl00$ContentPlaceHolder1$UCVisaInquiry1$btnSubmit" value="Submit" onclick="return OnVisaInquirySubmit();" id="ctl00_ContentPlaceHolder1_UCVisaInquiry1_btnSubmit" tabindex="1" class="btn btnBlack">
+                            <input type="button" name="ctl00$ContentPlaceHolder1$UCVisaInquiry1$btnReset" value="Clear" onclick="return OnResetClick();__doPostBack(&#39;ctl00$ContentPlaceHolder1$UCVisaInquiry1$btnReset&#39;,&#39;&#39;)" id="ctl00_ContentPlaceHolder1_UCVisaInquiry1_btnReset" tabindex="3" class="btn btn-danger">
+                        </div>
+
+                    </div>
+                </div>
+        </div></td>
+    </tr>
+    <tr>
+    </tr>
+    <tr>
+        <td>
+            <div style="overflow-x: auto;">
+                <div id="ctl00_ContentPlaceHolder1_UCVisaInquiry1_radGridManage" class="table-responsive" enableembeddedbasestylesheet="False" enableembeddedskins="False" style="font-size:Smaller;width:100%;">
+<!-- 4.6.2 --><span id="ctl00_ContentPlaceHolder1_UCVisaInquiry1_radGridManageStyleSheetHolder" style="display:none;"></span>	</div>
+
+            </div>
+        </td>
+    </tr>
+    <tr>
+        <td align="center">
+            <strong>
+                <div style="color: blue">
+                    <span id="ctl00_ContentPlaceHolder1_UCVisaInquiry1_lblMessagePass"></span>
+                </div>
+                <div style="color: red">
+                    <span id="ctl00_ContentPlaceHolder1_UCVisaInquiry1_lblMessageFail"></span>
+                    <span id="ctl00_ContentPlaceHolder1_UCVisaInquiry1_lblErrMsg2"></span>
+                </div>
+            </strong>
+        </td>
+    </tr>
+</tbody></table>
+
+        </div>
+    </div>
+
+                        <div id="div_overlay_for_popup"></div>
+
+                        <div id="div_popup_service_info" class="div_popup_parent">
+
+                            <div class="div_popup_child panel-primary">
+                                <div class="popup_header panel-heading">
+                                    <img src="./Index_files/close.png" class="popup_closeButton" onclick="ClosePopup(this)">
+                                    <br>
+                                    <span class="popup_header_text"></span>
+                                </div>
+                                <div class="popup_padding_div">
+
+                                    <div class="clearfix">
+                                        
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Footer -->
+                <footer>
+                    <div class="container footer">
+                        <div class="row footerLinks hide-md">
+                            <div class="col-md-10">
+                                <div>
+                                    <ul class="list-inline">
+                                        <li id="iTermsConditions">
+                                            <a id="lnkTermsConditions" title="Terms &amp; Conditions" href="http://moi.gov.ae/en/TermsConditions.aspx" target="_self">
+                                                Terms &amp; Conditions
+                                            </a>
+                                        </li>
+                                        <li id="iAccessibilityPolicy">
+                                            <a id="lnkAccessibilityPolicy" title="Accessibility Policy" href="http://moi.gov.ae/en/AccessbilityPolicy.aspx" target="_self">
+                                                Accessibility Policy
+                                            </a>
+                                        </li>
+                                        <li id="iPrivacyPolicy">
+                                            <a id="lnkPrivacyPolicy" title="Privacy Policy" href="http://moi.gov.ae/en/PrivacyPolicy.aspx" target="_self">
+                                                Privacy Policy
+                                            </a>
+                                        </li>
+                                        <li id="iSitemap">
+                                            <a id="lnkFawriSiteMap" href="https://www.moifawri.ae/Responsive/Modules/appsecurity/sitemap.aspx">
+                                                Site Map
+                                            </a>
+                                        </li>
+                                        <li id="iCopyright">
+                                            <a id="lnkCopyright" title="Copyright" href="http://moi.gov.ae/en/Copyright.aspx" target="_self">
+                                                Copyright
+                                            </a>
+                                        </li>
+                                        <li id="iCustomerService">
+                                            <a id="lnkCustomerService" title="Customer Service Charter" href="https://www.moi.gov.ae/en/about.moi/genericcontent/citizen.charter.aspx" target="_blank">
+                                                Customer Service Charter
+                                            </a>
+                                        </li>
+                                        <li id="iDisclaimer" class="last">
+                                            <a id="lnkDisclaimer" title="Disclaimer" href="http://moi.gov.ae/en/Disclaimer.aspx" target="_self">
+                                                Disclaimer
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-md-2 contact-number">
+                                Contact Us: 8005000
+                            </div>
+                        </div>
+                        <div class="row footerContent">
+                            <div class="col-md-4 contentCol last-updated">
+                                <p class="info">
+                                    </p><p>
+                                        Page last updated on: Thu 12 Oct 2017 - 05:15 PM
+                                    </p>
+                                    Supports Microsoft Internet Explorer 8.0+, Firefox 2.0+, Safari 4.0+, Opera 6.0+, Chrome
+                                <p></p>
+                            </div>
+                            <div class="col-md-2 contentCol govt">
+
+                                
+                                <a href="http://government.ae/en" target="_blank">
+                                    <img id="ctl00_eGovLogo" class="img-responsive" src="./Index_files/eGovLogo.png" style="border-width:0px;"></a>
+                                
+                            </div>
+                            <div class="col-md-2 contentCol connect">
+                                <h5>
+                                    Connect With Us</h5>
+                                <ul class="list-inline">
+                                    <li><a href="https://www.facebook.com/AbuDhabiPolice" target="_Blank" title="Facebook">
+                                        <img id="ctl00_ctl00_Img1" src="./Index_files/icoface.png" alt="Facebook" style="height:27px;width:27px;border-width:0px;"></a></li>
+                                    <li><a href="https://twitter.com/AbuDhabiPolice" target="_Blank" title="Twitter">
+                                        <img id="ctl00_ctl00_Img2" src="./Index_files/icotwitter.png" alt="Twitter" style="height:27px;width:27px;border-width:0px;"></a></li>
+                                    <li><a href="http://www.youtube.com/user/theabudhabipolice" target="_Blank" title="Youtube">
+                                        <img id="ctl00_ctl00_Img3" src="./Index_files/icotube.png" alt="Youtube" style="height:27px;width:27px;border-width:0px;"></a></li>
+                                    <li><a href="http://instagram.com/moiuae" target="_Blank" title="Instagram">
+                                        <img id="ctl00_ctl00_Img4" src="./Index_files/iconinstagram.png" alt="Instagram" style="height:27px;width:27px;border-width:0px;"></a></li>
+                                </ul>
+                            </div>
+                            <div class="col-md-2 contentCol plugin">
+                                <h5>
+                                    Add-Ons &amp; Plug-Ins</h5>
+                                <ul class="list-inline">
+                                    <li><a href="http://www.adobe.com/downloads.html" target="_Blank" title="Flash">
+                                        <img id="ctl00_ctl00_Img5" src="./Index_files/icoflash.png" alt="Flash" style="height:23px;width:23px;border-width:0px;">
+                                    </a></li>
+                                    <li><a href="http://office.microsoft.com/en-us/downloads/office-online-file-converters-and-viewers-HA001044981.aspx" target="_Blank" title="Word">
+                                        <img id="ctl00_ctl00_Img6" src="./Index_files/icoword.png" alt="Word" style="height:23px;width:23px;border-width:0px;">
+                                    </a></li>
+                                    <li><a href="https://www.moifawri.ae/Responsive/Modules/VisaManagement/VisaInquiry.aspx#"></a><a href="http://office.microsoft.com/en-us/downloads/office-online-file-converters-and-viewers-HA001044981.aspx" target="_Blank" title="Excel">
+                                        <img id="ctl00_ctl00_Img7" src="./Index_files/icoexcel.png" alt="Excel" style="height:23px;width:22px;border-width:0px;">
+                                    </a></li>
+                                    <li><a href="http://www.adobe.com/downloads.html" target="_Blank" title="Adobe">
+                                        <img id="ctl00_ctl00_Img8" src="./Index_files/icopdf.png" alt="Adobe" style="height:23px;width:23px;border-width:0px;">
+                                    </a></li>
+                                    <li><a href="http://www.java.com/en/download/index.jsp" target="_Blank" title="Java">
+                                        <img id="ctl00_ctl00_Img9" src="./Index_files/icojava.png" alt="Java" style="height:23px;width:23px;border-width:0px;">
+                                    </a></li>
+                                </ul>
+                            </div>
+                            <div class="col-md-2 contentCol footerNav">
+                                <ul class="list-inline">
+                                    <li id="iTermsConditions">
+                                        <a id="lnkTermsConditions" title="Terms &amp; Conditions" meta:resourcekey="litTermsConditions" href="http://moi.gov.ae/en/TermsConditions.aspx" target="_self">
+                                            Terms &amp; Conditions
+                                        </a>
+                                    </li>
+                                    <li id="iAccessibilityPolicy">
+                                        <a id="lnkAccessibilityPolicy" title="Accessibility Policy" href="http://moi.gov.ae/en/AccessbilityPolicy.aspx" target="_self">
+                                            Accessibility Policy
+                                        </a>
+                                    </li>
+                                    <li id="iPrivacyPolicy">
+                                        <a id="lnkPrivacyPolicy" title="Privacy Policy" href="http://moi.gov.ae/en/PrivacyPolicy.aspx" target="_self">
+                                            Privacy Policy
+                                        </a>
+                                    </li>
+                                    <li id="iSitemap">
+                                        <a id="lnkFawriSiteMap" href="https://www.moifawri.ae/Responsive/Modules/appsecurity/sitemap.aspx">
+                                            Site Map
+                                        </a>
+                                    </li>
+                                    <li id="iCopyright">
+                                        <a id="lnkCopyright" title="Copyright" href="http://moi.gov.ae/en/Copyright.aspx" target="_self">
+                                            Copyright
+                                        </a>
+                                    </li>
+                                    <li id="iCustomerService">
+                                        <a id="lnkCustomerService" title="Customer Service Charter" href="https://www.moi.gov.ae/en/about.moi/genericcontent/citizen.charter.aspx" target="_blank">
+                                            Customer Service Charter
+                                        </a>
+                                    </li>
+                                    <li id="iDisclaimer" class="last">
+                                        <a id="lnkDisclaimer" title="Disclaimer" href="http://moi.gov.ae/en/Disclaimer.aspx" target="_self">
+                                            Disclaimer
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col-md-2 contentCol mobile">
+                                <h5>
+                                    Download Mobile Apps</h5>
+                                <ul class="list-inline">
+                                    <li><a href="https://play.google.com/store/apps/details?id=com.uaemoi.smartservices" target="_Blank" title="Android">
+                                        <img id="ctl00_imgGoogleApp" src="./Index_files/icon_android.png" style="height:27px;width:27px;border-width:0px;"></a></li>
+                                    <li><a href="https://itunes.apple.com/ae/app/uae-moi/id768665731?ls=1&amp;mt=8" target="_Blank" title="Apple">
+                                        <img id="ctl00_imgAppleApp" src="./Index_files/icon_apple.png" style="height:27px;width:27px;border-width:0px;"></a></li>
+                                    <li><a href="http://appworld.blackberry.com/webstore/content/42157888/?countrycode=AE&amp;lang=en" target="_Blank" title="Blackberry">
+                                        <img id="ctl00_imgBBApp" src="./Index_files/icon_bb.png" style="height:27px;width:27px;border-width:0px;"></a></li>
+                                    <li><a href="http://www.windowsphone.com/ar-ae/store/app/uae-moi/9689222a-63ba-4c42-b808-34431677a32d" target="_Blank" title="Windows">
+                                        <img id="ctl00_imgWinApp" src="./Index_files/icon_windows.png" style="height:27px;width:27px;border-width:0px;"></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12 bottom-copyrights">
+                                COPYRIGHT © 2017 - MINISTRY OF INTERIOR. ALL RIGHTS RESERVED.
+                            </div>
+                        </div>
+                        <div class="row poweredby">
+                            <a href="http://www.emaratech.ae/">
+                                <img id="ctl00_ctl00_imgPoweredBy" class="img-responsive" src="./Index_files/emaratech-logo.png" alt="Engineered and powered by emaratech" style="border-width:0px;">
+                            </a>
+                        </div>
+                    </div>
+                </footer>
+                <!-- Model Popup -->
+
+
+                <a class="ContentPopupDialogClick" data-toggle="modal" data-target=".ContentPopupDialog"></a>
+                <div class="overlay modal fade ContentPopupDialog in" tabindex="-1" role="dialog" aria-labelledby="SmallModalLabel">
+                    <div class="modal-dialog modal-lg">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close" onclick="$(&quot;.ContentPopupDialog&quot;).hide(&quot;slow&quot;);$(&quot;.ContentPopupDialog .modal-body&quot;).empty();$(&quot;.ContentPopupDialog .loading&quot;).show(); window.scrollTo(0,  $.fn.CurrentTop);">
+                                    <span aria-hidden="true">×</span></button>
+                                <img class="loading">
+                                <p class="modal-title" id="SmallModalLabel">&nbsp;</p>
+                            </div>
+                            <div id="popup-content-modal-body" class="popup-content-modal-body"></div>
+                        </div>
+                        <!-- /.modal-content -->
+                    </div>
+                    <!-- /.modal-dialog -->
+                </div>
+                <!-- Alert Popup -->
+                <div style="display: none; text-align: center;" class="overlay modal fade AlertMessagePopup in" tabindex="-1" role="dialog" aria-labelledby="SmallModalLabel">
+                    <div class="modal-dialog modal-sm" style="height: 100%">
+                        <div class="modal-content" style="position: relative; top: 25%;">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close" onclick="$(&quot;.AlertMessagePopup&quot;).hide();$(&quot;.AlertMessagePopup .text-message&quot;).empty(); window.scrollTo(0,  $.fn.CurrentTop);">
+                                    <span aria-hidden="true">×</span></button><p></p>
+                            </div>
+                            <div id="modal-body" class="modal-body" style="overflow: visible;">
+                                <div class="row">
+                                    <div class="col-sm-12">
+                                        <p class="text-message"></p>
+                                    </div>
+                                </div>
+                                <div class="row voffset3">
+                                    <div class="col-sm-12">
+                                        <input class="btnBlack" type="button" value="OK" onclick="$(&#39;.AlertMessagePopup .close&#39;).click();">
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                        <!-- /.modal-content -->
+                    </div>
+                    <!-- /.modal-dialog -->
+                </div>
+
+            </div>
+            
+            <input type="hidden" name="ctl00$hiddenFieldEditProfile" id="ctl00_hiddenFieldEditProfile">
+
+            <script type="text/javascript" src="./Index_files/jquery.validate.min.js.download"></script>
+            <script type="text/javascript" src="./Index_files/bootstrap-datepicker.js.download"></script>
+            <script type="text/javascript" src="./Index_files/bootstrap.js.download"></script>
+            <script type="text/javascript" src="./Index_files/nanobar.min.js.download"></script>
+            <script type="text/javascript" src="./Index_files/responsive_plugins.js.download"></script>
+            <script type="text/javascript" src="./Index_files/responsive_main.js.download"></script>
+
+            <script type="text/javascript" src="./Index_files/fawri.common.responsive.js.download"></script>
+            <script type="text/javascript" src="./Index_files/bootstrap-toggle.min.js.download"></script>
+            <script type="text/javascript" src="./Index_files/responsive_date.js.download"></script>
+
+            <script type="text/javascript" src="./Index_files/fawri.responsive.overrides.js.download"></script>
+
+            <script type="text/javascript" src="./Index_files/eida_webcomponents.js.download"></script>
+            <script type="text/javascript" src="./Index_files/PortalCommon.js.download"></script>
+
+            <script type="text/javascript" src="./Index_files/TextToSpeech.js.download"></script>
+
+
+            <script>
+
+               
+                
+
+                var inputs = document.getElementsByTagName('input');
+
+                if (true==true){
+       
+                    for (var i = 0; i < inputs.length; i++) {
+                        if (inputs[i].id.match(/Email.*/)) {
+                            inputs[i].placeholder="abc@domain.com";
+                        }
+
+                        else if (inputs[i].id.match(/Salary.*/)||inputs[i].id.match(/EstNumber.*/)||inputs[i].id.match(/EstLicenseNumber.*/)||inputs[i].id.match(/SponsorCode.*/)
+                            ||inputs[i].id.match(/MonthlyIncome.*/)||inputs[i].id.match(/IDNo.*/)||inputs[i].id.match(/txtSponsorFileNo.*/)||inputs[i].id.match(/FawriApplicationDetail_UnifiedNo.*/)||inputs[i].id.match(/ctl00_ContentPlaceHolder1_txtId.*/) 
+                            ||inputs[i].id.match(/VisaNumber.*/)) {
+                            inputs[i].placeholder = "Enter Number";
+                        }
+                        else if (inputs[i].type.toLowerCase() == 'number' && inputs[i].id.match(/phone.*/)) {
+                            inputs[i].placeholder = "Enter Number";
+                        }
+                        else if (inputs[i].id.match(/Phone.*/)||inputs[i].id.match(/Tel.*/)) {
+                            inputs[i].placeholder = "02XXXXXXX";
+                        }
+
+                        else if (inputs[i].id.match(/Fax.*/)) {
+                            inputs[i].placeholder = "02XXXXXXX";
+                                     
+                        }
+
+
+                        else if (inputs[i].id.match(/PermanentMobileNo.*/)) {
+                            inputs[i].placeholder = "00XXXXXXXXXX";
+                        }
+
+                        else if (inputs[i].id.match(/Mobile.*/)) {
+                            inputs[i].placeholder = "05XXXXXXX";
+                        }
+                        else if (inputs[i].type.toLowerCase() == 'text' && !(inputs[i].id.match(/VAL_TXT.*/))) {
+                            inputs[i].placeholder="Enter Text";
+                        }
+                        else if (inputs[i].type.toLowerCase() == 'password') {
+                            inputs[i].placeholder="Password";
+                        }
+	
+
+	
+	
+                        //console.log(inputs[i].id);
+                    }
+                }
+                else{
+                    for (var i = 0; i < inputs.length; i++) {
+                        if (inputs[i].id.match(/Email.*/)) {
+                            inputs[i].placeholder="abc@domain.com";
+                        }
+
+       
+                        else if (inputs[i].id.match(/Salary.*/)||inputs[i].id.match(/EstNumber.*/)||inputs[i].id.match(/EstLicenseNumber.*/)||inputs[i].id.match(/SponsorCode.*/)
+                            ||inputs[i].id.match(/MonthlyIncome.*/)||inputs[i].id.match(/IDNo.*/)||inputs[i].id.match(/txtSponsorFileNo.*/) ||inputs[i].id.match(/VisaNumber.*/)||inputs[i].id.match(/FawriApplicationDetail_UnifiedNo.*/)||inputs[i].id.match(/ctl00_ContentPlaceHolder1_txtId.*/)) {
+                            inputs[i].placeholder = "ادخل رقم";
+                        }
+                        else if (inputs[i].id.match(/Phone.*/)||inputs[i].id.match(/Tel.*/)) {
+                            inputs[i].placeholder = "02XXXXXXX";
+                        }
+
+                        else if (inputs[i].id.match(/Fax.*/)) {
+                            inputs[i].placeholder = "02XXXXXXX";
+                        }
+
+
+                        else if (inputs[i].id.match(/PermanentMobileNo.*/)) {
+                            inputs[i].placeholder = "00XXXXXXXXXX";
+                        }
+
+                        else if (inputs[i].id.match(/Mobile.*/)) {
+                            inputs[i].placeholder = "05XXXXXXX";
+                        }
+                        else if (inputs[i].type.toLowerCase() == 'text' && !(inputs[i].id.match(/VAL_TXT.*/))) {
+                            inputs[i].placeholder="ادخل نص";
+                        }
+                        else if (inputs[i].type.toLowerCase() == 'password') {
+                            inputs[i].placeholder="كلمة المرور";
+                        }
+
+	
+
+	
+	
+                        //console.log(inputs[i].id);
+                    }
+                }
+
+
+
+            </script>
+
+
+            <script type="text/javascript">
+                $.SiteURL = '../../../';
+                function searchMOI() {
+                    var term = $('.search-open input').val();
+                    window.openHolder('http://eservices.mol.gov.ae/wsworkpermitinfo/workpermitinfo.asmx' + term);
+                    $('.search-open').hide();
+
+                }
+
+            </script>
+        
+
+<script type="text/javascript">
+//<![CDATA[
+function StartupDropDownListFillScripts() {fillDDL('', 'Datel_Fawri_Web_Portal_Shared_Entities_VisaInquiryInfo_VisaServiceTypeId',''); fillDDL('/LookupService.svc/GetSexList', 'Datel_Fawri_Web_Portal_Shared_Entities_VisaInquiryInfo_GenderId',''); fillDDL('/LookupService.svc/GetNationalityList?property={2}&val={1}', 'Datel_Fawri_Web_Portal_Shared_Entities_VisaInquiryInfo_NationalityId',''); };
+
+Sys.WebForms.PageRequestManager.getInstance().add_endRequest(StartupDropDownListFillScripts);$(document).ready(function() {StartupDropDownListFillScripts();});$.fn.addItems = function(data) {var hasValueSelected = 0; return this.each(function() {var list = this; list.options[0].text = list.getAttribute("PleaseSelect"); var quickCode = document.getElementById(list.id + '_VAL_TXT').value; $.each(data, function(index, itemData) {if ( itemData.IsArchived != 1 ){var itm = itemData.DescriptionEng; if (itm == null) itm = '';var option = new Option(itm, itemData.Code);option["ID"] = itemData.Id;option["title"] = itemData.DescriptionEng;if (quickCode != '' && quickCode == itemData.Code) { option.selected = 'selected';  hasValueSelected = 1;  document.getElementById(list.id + '_VAL_TXT').value = quickCode;  } list.add(option);}});if(hasValueSelected == 0){document.getElementById(list.id + '_VAL_TXT').value = ''; if(list.getAttribute("CallbackFnOnBinding") != ''){eval(list.getAttribute("CallbackFnOnBinding"));}}list.options[0].text = list.getAttribute("PleaseSelect"); });}
+var uigfxIdDictionary = new Array();var uigfxUniqueIdDictionary = new Array();uigfxIdDictionary['VisaInquiryInfo'] = 'VisaInquiryInfo';uigfxIdDictionary['VisaServiceTypeId'] = 'Datel_Fawri_Web_Portal_Shared_Entities_VisaInquiryInfo_VisaServiceTypeId';uigfxIdDictionary['VisaNumber1'] = 'Datel_Fawri_Web_Portal_Shared_Entities_VisaInquiryInfo_VisaNumber1';uigfxIdDictionary['VisaNumber2'] = 'Datel_Fawri_Web_Portal_Shared_Entities_VisaInquiryInfo_VisaNumber2';uigfxIdDictionary['VisaNumber3'] = 'Datel_Fawri_Web_Portal_Shared_Entities_VisaInquiryInfo_VisaNumber3';uigfxIdDictionary['VisaNumber4'] = 'Datel_Fawri_Web_Portal_Shared_Entities_VisaInquiryInfo_VisaNumber4';uigfxIdDictionary['VisaNumber0'] = 'Datel_Fawri_Web_Portal_Shared_Entities_VisaInquiryInfo_VisaNumber0_GRP';uigfxIdDictionary['Name'] = 'Datel_Fawri_Web_Portal_Shared_Entities_VisaInquiryInfo_Name';uigfxIdDictionary['GenderId'] = 'Datel_Fawri_Web_Portal_Shared_Entities_VisaInquiryInfo_GenderId';uigfxIdDictionary['DateOfBirth'] = 'Datel_Fawri_Web_Portal_Shared_Entities_VisaInquiryInfo_DateOfBirth';uigfxIdDictionary['NationalityId'] = 'Datel_Fawri_Web_Portal_Shared_Entities_VisaInquiryInfo_NationalityId';uigfxIdDictionary['Captcha1'] = 'Datel_Fawri_Web_Portal_Shared_Entities_VisaInquiryInfo_Captcha1';uigfxUniqueIdDictionary[''] = 'Datel_Fawri_Web_Portal_Shared_Entities_VisaInquiryInfo_VisaNumber0_GRP';uigfxUniqueIdDictionary['UIGFX_SERVICE_ID'] = '';function GetElementByUIGFXId(id){return document.getElementById(uigfxIdDictionary[id]);}function GetElementByUIGFXUniqueId(id){return uigfxUniqueIdDictionary[id]!=undefined?document.getElementById(uigfxUniqueIdDictionary[id]):document.getElementById(uigfxIdDictionary[id]);}function GetElementTextByUIGFXUniqueId(id){var comboControl = GetElementByUIGFXUniqueId(id); if(comboControl == null) return ''; return document.getElementById(comboControl.id +"_VAL_TXT");}
+
+
+WebForm_InitCallback();//]]>
+</script>
+<script type="text/javascript"></script>
+<script type="text/javascript">
+//<![CDATA[
+Sys.Application.initialize();
+//]]>
+</script>
+</form>
+    
+
+
+
+
+
+
+
+
+<script>
+      
+    
+    //Added By Talal for UNE-5302
+
+    $(document).ready(function () {
+     
+        langArabic = $('#hdnIsLanguageArabic').val();
+        console.log(  $('#hdnIsLanguageArabic').val());
+
+        if(langArabic.toLowerCase() == 'true')
+            $('#divServiceCount').css('text-align','left');
+        else
+            $('#divServiceCount').css('text-align','right');
+
+        //Text To Speech - Start
+
+        var ttsFlag ='true';
+        var ttsUrl ='//app-eu.readspeaker.com/cgi-bin/rsent';
+        var ttsCustId ='9037';
+        var ttsVoiceEn ='Alice';
+        var ttsVoiceAr ='Faris';
+
+        if( typeof (ttsFlag) != 'undefined' && typeof(ttsUrl) != 'undefined' && typeof(ttsCustId) != 'undefined' 
+             && typeof(ttsVoiceEn) != 'undefined' && typeof(ttsVoiceAr) != 'undefined' 
+            && ttsFlag != '' && ttsUrl != '' && ttsCustId != '' && ttsVoiceEn !='' && ttsVoiceAr != '')
+        {
+            if (typeof (InitializeTTS) == 'function') 
+                InitializeTTS(ttsFlag,ttsUrl,ttsCustId,ttsVoiceEn,ttsVoiceAr);
+        }
+
+        //Text To Speech - End 
+
+    });
+
+
+    $('#btnTTSPlay').click(function(){
+    
+        if (typeof readyfunc == 'function') 
+            setTimeout(function(){readyfunc();},5000);   
+   
+
+    });
+
+   
+
+  
+
+   
+
+  
+
+    //Code below to hide popup if user clicks outside of it
+    $("body").click(function(event ){
+       
+        if($("#div_overlay_for_popup").is(":visible") && $(".div_popup_parent").is(":visible"))
+        {
+            var $target = $(event.target);
+           
+
+            if(!$target.parents().is(".div_popup_child") && !$target.is(".div_popup_child") && $target.parent().prop('tagName')!='A' && $target.prop('id')!="aServiceCardUrl"){           
+                $("body").find(".div_popup_parent").hide();
+                $('#div_overlay_for_popup').hide();
+            }
+        }
+    });
+
+
+    //Added By Talal for UNE-5609
+
+    function ShowPopup(divToShow) {
+     
+        $("html, body").animate({ scrollTop: 0 }, "slow");
+        $("#div_overlay_for_popup").show();
+        $('#' + divToShow).show();
+    }
+
+    function ClosePopup(divToClose) {
+
+        $('#div_overlay_for_popup').hide();
+        $(divToClose).parent().parent().parent().hide();
+    }    
+
+</script>
+
+
+
+<script>
+      
+    
+    //Added By Talal for UNE-5302
+
+    $(document).ready(function () {
+        var manager = Sys.WebForms.PageRequestManager.getInstance();
+        manager.add_endRequest(endRequest);
+        manager.add_beginRequest(OnBeginRequest);
+
+    });
+
+    function OnBeginRequest(sender, args) {
+        $('#div_GrayBackround').show();
+        $('#div_loading').show();
+    }
+
+    function endRequest(sender, args) {
+        $('#div_GrayBackround').hide();
+        $('#div_loading').hide();
+    }
+
+    //Forms for which loader shouldnt appear
+    var arr = ['DashboardApplicationGen', 'dashboardapplicationgen','VisaInquiry','visainquiry']
+
+    $(document).ajaxSend(function (event, XMLHttpRequest, settings) {
+
+        var isShowLoading = true;
+        $.map(arr, function (elementOfArray, indexInArray) {
+
+            if (window.location.href.indexOf(elementOfArray) >= 0)
+                isShowLoading = false;
+
+        });
+
+        if (isShowLoading)
+            ShowLoading();
+    });
+
+    $(document).ajaxComplete(function (event, xhr, settings) {
+
+        var isHideLoading = true;
+        $.map(arr, function (elementOfArray, indexInArray) {
+
+            if (settings.url.indexOf(elementOfArray) >= 0)
+                isHideLoading = false;
+        });
+
+        if (isHideLoading)
+            HideLoading();
+    });
+
+    $(document).ajaxError(function( event, request, settings ) {
+
+        HideLoading();
+
+     });
+
+
+
+    function ShowLoading() {
+        $('#div_GrayBackround').show();
+        $('#div_loading').show();
+    }
+
+    function HideLoading(e) {
+        $('#div_GrayBackround').hide();
+        $('#div_loading').hide();
+    }
+
+</script>
+
+<script src="./Index_files/get_dynamic_config.js.download"></script><script src="./Index_files/get_static_config.3.920.3.3.1495.219.299.84.8.3.3.3.2.js.download"></script><script src="./Index_files/localization.en.3.bcbbacd519b2fc5726827ada23d031c5_9d8ba486d975c67f3162d3922547a308.js.download"></script><div id="livechat-compact-container" style="position: fixed; bottom: 0px; right: 15px; width: 75px; height: 105px; overflow: hidden; visibility: visible; z-index: 2147483639; background: transparent; border: 0px; transition: transform 0.2s ease-in-out; backface-visibility: hidden; opacity: 1; transform: translateY(0%);"><iframe src="./Index_files/saved_resource.html" id="livechat-compact-view" style="position: relative;top: 20px;left: 0;width: 100%;border: 0;padding: 0;margin: 0;float: none;background: none" scrolling="no" frameborder="0" allowtransparency="true" title="LiveChat Minimized Widget"></iframe><a id="livechat-badge" href="https://www.moifawri.ae/Responsive/Modules/VisaManagement/VisaInquiry.aspx#" onclick="LC_API.show_full_view({source:&#39;minimized click&#39;});return false" style="position: absolute;display: block;visibility: hidden;height: 16px;padding: 0 4px;line-height: 16px;background: #f00;color: #fff;font-size: 10px;text-decoration: none;font-family: &#39;Lucida Grande&#39;, &#39;Lucida Sans Unicode&#39;, Arial, Verdana, sans-serif;border-radius: 3px;box-shadow: 0 -1px 0px #f00, -1px 0 0px #f00, 1px 0 0px #f00, 0 1px 0px #f00, 0 0 2px #000;border-top: 1px solid #f99;width: 16px;border-radius: 50%;box-shadow: none;border-top: 0;padding: 0;text-align: center;font-family: &#39;Lato&#39;, sans-serif;top: 23px;right: 8px"></a></div><div id="livechat-full" style="position: fixed; bottom: 0px; right: 15px; width: 400px; height: 450px; overflow: hidden; visibility: hidden; z-index: -1; background: transparent; border: 0px; transition: transform 0.2s ease-in-out; backface-visibility: hidden; transform: translateY(100%); opacity: 0;"><iframe src="./Index_files/open_chat.html" id="livechat-full-view" name="livechat-full-view" title="LiveChat Widget" scrolling="no" frameborder="0" allowtransparency="true" style="position: absolute; top: 0px; right: 0px; bottom: 0px; left: 0px; width: 100%; height: 100%; border: 0px; padding: 0px; margin: 0px; float: none; background: none;" __idm_id__="468481025"></iframe></div><div id="lc_invite_layer" style="text-align: left; display: none; z-index: 16777261;"></div><div id="lc_overlay_layer" style="background-color: rgb(0, 0, 0); position: fixed; left: 0px; top: 0px; z-index: 16777260; display: none; width: 100%; height: 100%;"></div><script id="livechat-ping" src="https://secure.livechatinc.com/licence/6420071/v2/ping?t=1509794669203&amp;data=%7B%22visitor%22%3A%7B%22id%22%3A%22S1509789476.0c77fde88c%22%7D%7D&amp;jsonp=__lc_ping_635947"></script></body></html>
